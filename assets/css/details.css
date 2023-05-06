@@ -17,6 +17,12 @@ img{
     width: 300px;
     border-radius: 1rem;
     margin-bottom: 2rem;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+img:hover{
+    transform: scale(1.1);
 }
 
 span{
@@ -39,8 +45,8 @@ span{
     max-width: 50%;
 }
 
-button {
-    background-color: #6654da;
+button { 
+    background-color: #6a6b76;
     font-weight: bold;
     border: none;
     cursor: pointer;
@@ -54,5 +60,4 @@ button {
 
 button:hover {
     transform: scale(1.1);
-    background-color: #5848c2;
 }

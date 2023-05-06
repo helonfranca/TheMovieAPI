@@ -6,6 +6,7 @@
 }
   
 body {
+  display: block;
   background-color: black;
   color: white;
   -ms-overflow-style: none;  /* IE and Edge */
